@@ -1,0 +1,222 @@
+/* // small device*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /***************** 
+Header Section CSS
+*****************/
+  .menu ul li a {
+    text-align: right;
+    padding-top: 12px !important;
+  }
+  .menu ul li a:hover {
+    border-bottom: 1px solid transparent;
+  }
+
+  /******************
+Banner Section CSS
+*******************/
+  .bannerContent {
+    margin-top: 80px;
+    margin-bottom: 90px;
+    text-align: center;
+  }
+  .bannerContent .common-h1 {
+    font-size: 28px;
+  }
+  .bannerContent .commonBar {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .bannerContent .marginBar {
+    margin: 25px 0;
+  }
+  .bannerPhoto {
+    margin-bottom: 25px;
+  }
+  .bannerPhoto img {
+    max-width: 30% !important;
+  }
+
+  .bannerText p {
+    padding-right: 0px !important;
+  }
+  .bannerSection .btn {
+    margin-top: 40px;
+  }
+  .bannerForm {
+    display: none;
+  }
+
+  /************************
+Social Media Section CSS
+*************************/
+  .socialMediaIcon {
+    margin: 10px 0;
+  }
+  .socialMediaIcon a {
+    justify-content: center;
+  }
+  .socialText {
+    text-align: center;
+  }
+
+  /******************** 
+Slider Section CSS 
+*********************/
+
+  .sliderSection {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+
+  .tabButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .tabButton .btn {
+    height: 50px;
+    width: 100px;
+  }
+  .tabButton .b1 {
+    border-top-left-radius: 5% !important;
+    border-bottom-left-radius: 5% !important;
+    border-top-right-radius: 0 !important;
+  }
+
+  .tabButton .b3 {
+    border-top-right-radius: 5% !important;
+    border-bottom-right-radius: 5% !important;
+    border-bottom-left-radius: 0 !important;
+  }
+  .sliderContent {
+    text-align: center;
+  }
+  .sliderContent h4 {
+    margin-bottom: 30px;
+  }
+  .sliderContent p {
+    margin-bottom: 20px;
+  }
+  .sliderImage {
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .sliderContent .btn {
+    margin-top: 15px;
+  }
+
+  /*******************
+ Description One 
+ *******************/
+  .descriptionOne {
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  .descriptionOne .commonBar {
+    margin: 25px auto;
+  }
+  .descriptionOne .descriptionImage {
+    text-align: center;
+  }
+  .descriptionOne .descriptionContent h4 {
+    text-align: center;
+  }
+  .descriptionOne .descriptionContent p {
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .descriptionText {
+    margin-bottom: 25px;
+  }
+  /*******************
+ Description Two  
+ *******************/
+  .descriptionTwo {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  .descriptionTwo .descriptionContent {
+    margin-bottom: 25px;
+  }
+  .descriptionTwo .descriptionContent h4 {
+    text-align: center;
+  }
+  .descriptionTwo .descriptionContent .commonBar {
+    margin: 25px auto;
+  }
+  .descriptionTwo .descriptionContent p {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+
+  .descriptionTwo .descriptionImage {
+    text-align: center;
+  }
+
+  /*******************
+ why Awesome Section
+ *********************/
+  .awesomeSection {
+    margin: 70px 0;
+  }
+  .awesomeText {
+    margin-bottom: 50px;
+  }
+  .awesomeText .common-h1 {
+    font-size: 28px;
+  }
+  .awesomeText .commonBar {
+    margin: 25px auto;
+  }
+  /**************
+ Price Section 
+ **************/
+  .pricingSection {
+    padding: 70px 0;
+  }
+  .priceText {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .priceText .common-h1 {
+    font-size: 30px;
+  }
+  .priceText .commonBar {
+    margin: 25px auto;
+  }
+
+  /*******************
+ testimonial Section
+ *******************/
+  .testimonial {
+    margin: 80px 0 70px;
+  }
+  .testimonialText {
+  }
+
+  .testimonialText .common-h1 {
+    font-size: 25px;
+  }
+
+  .testimonialText .commonBar {
+    margin: 25px auto;
+  }
+  .testimonialText p {
+  }
+
+  .textimonialCard {
+    margin-top: 50px;
+  }
+  .textimonialBox {
+    margin-bottom: 35px;
+  }
+
+  .textimonialBox::before {
+    right: 86%;
+  }
+  .textimonialBox p {
+    text-align: left;
+  }
+}

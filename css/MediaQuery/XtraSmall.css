@@ -1,0 +1,223 @@
+/* // ExtraSmall devices (up to  575.98px) */
+@media (max-width: 575.98px) {
+  /***************** 
+Header Section CSS
+*****************/
+  .menu ul li a {
+    text-align: right;
+    padding-top: 12px !important;
+  }
+  .menu ul li a:hover {
+    border-bottom: 1px solid transparent;
+  }
+
+  /******************
+Banner Section CSS
+*******************/
+  .bannerContent {
+    margin-top: 80px;
+    margin-bottom: 90px;
+    text-align: center;
+  }
+  .bannerContent .common-h1 {
+    font-size: 25px;
+  }
+  .bannerContent .commonBar {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .bannerContent .marginBar {
+    margin: 25px 0;
+  }
+  .bannerPhoto {
+    margin-bottom: 25px;
+  }
+  .bannerPhoto img {
+    max-width: 35% !important;
+  }
+  .bannerText p {
+    padding-right: 0px !important;
+  }
+  .bannerSection .btn {
+    margin-top: 40px;
+  }
+  .bannerForm {
+    display: none;
+  }
+  /************************
+Social Media Section CSS
+*************************/
+  .socialMediaSection {
+    display: none;
+  }
+
+  /******************** 
+Slider Section CSS 
+*********************/
+  .sliderSection {
+    padding-top: 70px;
+    padding-bottom: 60px;
+    background-color: var(--color-7);
+  }
+
+  .tabButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .tabButton .btn {
+    height: 50px;
+    width: 100px;
+  }
+  .tabButton .b1 {
+    border-top-left-radius: 5% !important;
+    border-bottom-left-radius: 5% !important;
+    border-top-right-radius: 0 !important;
+  }
+
+  .tabButton .b3 {
+    border-top-right-radius: 5% !important;
+    border-bottom-right-radius: 5% !important;
+    border-bottom-left-radius: 0 !important;
+  }
+  .sliderContent {
+    text-align: center;
+  }
+  .sliderContent h4 {
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .sliderContent p {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  .sliderImage {
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .sliderContent .btn {
+    margin-top: 15px;
+  }
+
+  /*******************
+ Description One 
+ *******************/
+  .descriptionOne {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .descriptionOne .commonBar {
+    margin: 25px auto;
+  }
+  .descriptionOne .descriptionImage {
+    text-align: center;
+  }
+  .descriptionOne .descriptionContent h4 {
+    text-align: center;
+  }
+  .descriptionOne .descriptionContent p {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .descriptionIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .descriptionText {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  /*******************
+ Description Two  
+ *******************/
+  .descriptionTwo {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .descriptionTwo .descriptionContent {
+    margin-bottom: 25px;
+  }
+  .descriptionTwo .descriptionContent h4 {
+    text-align: center;
+  }
+  .descriptionTwo .descriptionContent .commonBar {
+    margin: 25px auto;
+  }
+  .descriptionTwo .descriptionContent p {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .descriptionTwo .descriptionImage {
+    text-align: center;
+  }
+  /*******************
+ why Awesome Section
+ *********************/
+  .awesomeSection {
+    margin: 60px 0;
+  }
+  .awesomeText {
+    margin-bottom: 40px;
+  }
+  .awesomeText .common-h1 {
+    font-size: 25px;
+  }
+  .awesomeText .commonBar {
+    margin: 25px auto;
+  }
+  /**************
+ Price Section 
+ **************/
+  .pricingSection {
+    padding: 60px 0;
+  }
+  .priceText {
+    margin-bottom: 40px;
+  }
+  .priceText .common-h1 {
+    font-size: 25px;
+  }
+  .priceText .commonBar {
+    margin: 25px auto;
+  }
+
+  /*******************
+ testimonial Section
+ *******************/
+  .testimonial {
+    margin: 70px 0 60px;
+  }
+  .testimonialText {
+    margin-bottom: 30px;
+  }
+
+  .testimonialText .common-h1 {
+    font-size: 25px;
+  }
+
+  .testimonialText .commonBar {
+    margin: 25px auto;
+  }
+  .testimonialText p {
+  }
+  .textimonialCard {
+    margin-top: 30px;
+  }
+  .textimonialBox {
+    margin-bottom: 35px;
+  }
+
+  .textimonialBox::before {
+    right: 85%;
+  }
+  .textimonialBox p {
+    text-align: left;
+  }
+}

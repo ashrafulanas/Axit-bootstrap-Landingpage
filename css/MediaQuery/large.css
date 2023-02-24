@@ -1,0 +1,79 @@
+/* // Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /******************
+Banner Section CSS
+*******************/
+  .bannerContent {
+    margin-top: 90px;
+    margin-bottom: 110px;
+  }
+  .bannerContent .common-h1 {
+    font-size: 32px;
+  }
+  .bannerContent .marginBar {
+    margin: 30px 0;
+  }
+  .bannerPhoto {
+    margin-bottom: 30px;
+  }
+  .bannerPhoto img {
+    max-width: 35% !important;
+  }
+
+  .bannerText p {
+    padding-right: 60px;
+  }
+  .bannerSection .btn {
+    margin-top: 40px;
+  }
+  .bannerForm {
+    width: 350px;
+  }
+
+  /************************
+Social Media Section CSS
+*************************/
+  .socialMediaIcon a i {
+    font-size: 44px;
+    color: var(--color-6);
+  }
+  /****************
+  Awesome Section
+  *****************/
+  .awesomeSection {
+    margin: 90px 0;
+  }
+  .awesomeText {
+    margin-bottom: 60px;
+  }
+  .awesomeText .common-h1 {
+    font-size: 32px;
+  }
+  .awesomeText .commonBar {
+    margin: 25px auto;
+  }
+  /**************
+ Price Section 
+ **************/
+  .pricingSection {
+    padding: 90px 0;
+    background-color: var(--color-7);
+  }
+  .priceText {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .priceText .common-h1 {
+    font-size: 32px;
+  }
+  .priceText .commonBar {
+    margin: 25px auto;
+  }
+
+  /*******************
+ testimonial Section
+ *******************/
+  .textimonialBox::before {
+    right: 85%;
+  }
+}

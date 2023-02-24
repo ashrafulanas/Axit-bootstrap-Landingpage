@@ -1,0 +1,171 @@
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+
+:root {
+  --color-1: #000000;
+  --color-2: #ff9b51;
+  --color-3: #ffffff;
+  --color-4: #8f8f8f;
+  --color-5: #333333;
+  --color-6: #cccccc;
+  --color-7: #f5f5f5;
+  --color-8: #a2a3a6;
+  --color-9: #b0b0b0;
+  --color-10: #c5c5c5;
+  --color-11: #212121;
+}
+
+<i class="fa-solid fa-cloud-arrow-down"></i>
+<i class="fa-solid fa-cloud-arrow-up"></i>
+
+  <div class="row">
+          <!-- single item -->
+          <div class="col-md-4">
+            <div class="textimonialCard">
+              <div class="textimonialBox">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Doloribus accusamus expedita repellat similique odio
+                  aspernatur ex, architecto eaque quo suscipit.
+                </p>
+              </div>
+              <div class="customerInfo">
+                <div class="row align-items-center">
+                  <div class="col-lg-3 col-md-4 col-3">
+                    <div class="personImage text-center">
+                      <img src="./image/commentPhoto.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-lg-9 col-md-8 col-9">
+                    <div class="customerInfotext">
+                      <h3>Jeremy.h</h3>
+                      <p>Manager</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single item -->
+          <!-- single item -->
+          <div class="col-md-4">
+            <div class="textimonialCard">
+              <div class="textimonialBox">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Doloribus accusamus expedita repellat similique odio
+                  aspernatur ex, architecto eaque quo suscipit.
+                </p>
+              </div>
+              <div class="customerInfo">
+                <div class="row align-items-center">
+                  <div class="col-lg-3 col-md-4 col-3">
+                    <div class="personImage text-center">
+                      <img src="./image/commentPhoto.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-lg-9 col-md-8 col-9">
+                    <div class="customerInfotext">
+                      <h3>Jeremy.h</h3>
+                      <p>Manager</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single item -->
+          <!-- single item -->
+          <div class="col-md-4">
+            <div class="textimonialCard">
+              <div class="textimonialBox">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Doloribus accusamus expedita repellat similique odio
+                  aspernatur ex, architecto eaque quo suscipit.
+                </p>
+              </div>
+              <div class="customerInfo">
+                <div class="row align-items-center">
+                  <div class="col-lg-3 col-md-4 col-3">
+                    <div class="personImage text-center">
+                      <img src="./image/commentPhoto.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-lg-9 col-md-8 col-9">
+                    <div class="customerInfotext">
+                      <h3>Jeremy.h</h3>
+                      <p>Manager</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single item -->
+        </div>
+
+
+        .testimonialSection {
+  margin: 100px;
+}
+.testimonialText {
+  text-align: center;
+}
+.testimonialText .common-h1 {
+  color: var(--color-11);
+}
+.testimonialText .commonBar {
+  margin: 30px auto;
+  border: 1px solid var(--color-2);
+}
+.testimonialText p {
+}
+.textimonialCard {
+  margin-top: 50px;
+}
+.textimonialBox {
+  position: relative;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  background-color: var(--color-7);
+  padding: 20px 15px;
+}
+
+.textimonialBox::before {
+  content: "";
+  position: absolute;
+  right: 86%;
+  top: 118px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 30px solid var(--color-7);
+}
+.textimonialBox p {
+  text-align: justify;
+}
+.customerInfo {
+}
+.personImage {
+}
+.personImage img {
+}
+.customerInfotext {
+}
+.customerInfotext h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-5);
+  margin-bottom: 0 !important;
+}
+.customerInfotext p {
+  margin-top: 8px !important;
+  margin-bottom: 8px;
+}
+.align-items-center {
+  align-items: center !important;
+}
